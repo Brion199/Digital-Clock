@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">                              
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--these 3 meta data tag charset - html charactering coding UTF 8 it is recommended by html 5 for web developers it nearly contains alla characters and symbols 
+
+X-UA Compatible tell the browser to use the most recent rendering engine which is edge 
+
+viewport -  tells the browser how to resize the page 
+
+width=device-width, initial-scale=1.0 ----- set the web page according to the screen's width , set the initial zoom levle of the browswer with 100% which is default
+-->
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <h2>Digital Clock</h2>
+    <h1>🕖</h1>
+    <div class="clock">         <!-- '.clock + tab ' gives this line--> 
+        <div >
+            
+            <span id = "hour">00</span>s
+            <span class = "text">Hours</span>
+
+        </div>
+        <div >
+            
+            <span id = "minutes">00</span>
+            <span class = "text">Minutes</span>
+
+        </div>
+        <div >
+            
+            <span id = "seconds">00</span>
+            <span class = "text">Seconds</span>
+
+        </div>
+        <div>           
+            <span id = "ampm">AM</span>
+
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
